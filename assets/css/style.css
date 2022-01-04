@@ -1,0 +1,101 @@
+/* Fonts
+font-family: 'Questrial', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Colours */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Special paddings/margings/text */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation Bar */
+nav {
+        background-color: #c7831d;
+        width: 100%;
+        padding-top: 10px;
+        position: fixed;
+        z-index:100;
+}
+  
+nav a {
+    float: right;
+    color: #f0e5dc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+nav a:hover {
+    color: #554123;
+}
+  
+nav a.active {
+    background-color: #b38540;
+    color: #554123;
+  }
+
+  nav a.active:hover {
+    color: #FFE0B2;
+  }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header */
+.banner-parent {
+    width: 100%;
+    height: 600px;
+}
+
+.banner {
+    background-image: url("../images/papaya.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    width:100%;
+    height:100%;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    filter: blur(0);
+    opacity: 0.8;
+}
+
+.banner-parent:hover .banner,
+.banner-parent:focus .banner {
+  transform: scale(1.05);
+  transition: all .5s;
+}
+
+.banner-heading {
+    text-align: center;
+    color: #ffe0b2da;
+    padding-top: 19%;
+    font-size: 6rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 0px;    
+}
+
+.banner-subheading {
+    text-align: center;
+    color: #FFE0B2;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+
+    .banner {
+        height: 200px;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+    .banner-subheading {
+        display: none;
+    }
+}
