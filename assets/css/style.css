@@ -99,7 +99,7 @@ nav a.active {
     font-size: 2rem;
 }
 
-#homepage-sections {
+.homepage-sections {
     border: medium solid #c7831d;
     background-color: #ffe0b22f;
 }
@@ -158,13 +158,11 @@ nav a.active {
     border-radius: 50%;
     margin: 0 auto;
 }
-.left-about-heading i {    
+.left-about-heading i, .right-about-heading i {    
     color: #554123b9;
+    font-size: 40px;
 }
 
-.right-about-heading i {
-    color: #554123b9;
-}
 #circle-cover-bg {
     background: url(../images/revivejuicebar.jpeg) no-repeat center center;
     background-size: cover;
@@ -212,8 +210,6 @@ nav a.active {
         width:100%;
         float:center;
         padding-top: 0px;
-        height: 460px;
-
     }
     
     #center-about{
@@ -227,6 +223,8 @@ nav a.active {
         width: 100%;
         font-size: 110%;
         line-height: 150%;
+        margin: 0px;
+        float: none;
     }
 
     #about-line {
@@ -239,6 +237,10 @@ nav a.active {
 
     .fa-seedling {
         visibility: visible;
-        padding-bottom: 0.5px;
+        padding-top: 10px;
+    }
+
+    .fa-leaf, .fa-heart {
+        visibility:collapse; 
     }
 }
