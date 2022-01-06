@@ -13,15 +13,13 @@
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Questrial&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
     <nav>
         <a href="#contact">Contact</a>
-        <a href="#about">About Us</a>
+        <a href="about.html">About Us</a>
         <a href="#menu">Menu</a>
-        <a class="active" href="#home">Home</a>
+        <a class="active" href="index.html">Home</a>
     </nav>
 <header>
     <div class="banner-parent">
@@ -34,15 +32,15 @@
 </header>
 
 <section id= "homepage-about">
-<fieldset class= "homepage-sections">
-    <legend><h2 class="homepage-headings">Who We Are  </h2></legend>
+<fieldset class= "homepage-section">
+    <legend><a class= "homepage-heading-link" href="about.html"><h2 class="homepage-headings">Who We Are </h2></a></legend>
     <div id="left-about">
         <div class="left-about-heading">
             <h2> The ONLY exotic juice bar In Wales <br><br> <i class="fas fa-blender"></i></h2>
             
         </div>
         <div class="left-about-heading">
-            <h2><i class="fas fa-heart"></i><br><br> Almost completely plastic free and ethically sourced 
+            <h2><i class="fas fa-heart"></i><br><br> Completely plastic free and ethically sourced 
             
         
         <br><br><i class="fas fa-seedling"></i></h2>
@@ -60,18 +58,26 @@
         </div>
         <div id="center-about">
             <div id="circle-container">
-                <div id="circle-cover-bg"></div>
+                <div id="circle-cover-bg"> 
+                    <a href="about.html" class= "anchor">  
+                        <img src="assets/images/revivejuicebar.jpeg" alt= "image of the juice bar"></a>
+                </div>
             </div>
-        </div>
+       </div>
+      <div class="center"><button id="about-button" onclick="window.location.href='about.html';">
+        <span>More About Us</span>
+      </button>
+    </div> 
+
 </fieldset>
 </section>
 
-<section id= "homepage-menu"><fieldset class= "homepage-sections">
+<section id= "homepage-menu"><fieldset class= "homepage-section">
     <legend><h2 class="homepage-headings">Menu</h2></legend>
 </fieldset>
 </section>
 
-<section id= "homepage-findus"><fieldset class= "homepage-sections">
+<section id= "homepage-findus"><fieldset class= "homepage-section ">
     <legend><h2 class="homepage-headings">Find Us</h2></legend>
 </fieldset>
 </section>

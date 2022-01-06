@@ -4,7 +4,7 @@ font-family: 'Montserrat', sans-serif;*/
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Colours */
-body {
+ body {
     background-color: #99743c60;
 }
 nav {
@@ -72,7 +72,7 @@ nav a.active {
 .banner-parent:hover .banner,
 .banner-parent:focus .banner {
   transform: scale(1.05);
-  transition: all .5s;
+  transition: all .8s;
 }
 
 .banner-heading {
@@ -94,32 +94,40 @@ nav a.active {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Sections  */
 
 .homepage-headings {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #554123b9;
     font-size: 2rem;
 }
 
-.homepage-sections {
+.homepage-section {
     border: medium solid #c7831d;
     background-color: #ffe0b22f;
 }
 
+.homepage-heading-link {
+    text-decoration: none;
+}
+.homepage-heading-link :hover {
+    color: #FFE0B2;
+    background-color: #c7831d;
+    transition: all .5s
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage 'Who We Are'/About  */
 
 #left-about{
     padding-top: 30px;
     width: 33%;
     float: left;
-    color: #c7831d;
-    font-family: Questrial;
+    color: #554123b9;
+    font-family: 'Questrial', sans-serif;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    color: #c7831d;
-    font-family: Questrial;
+    color: #554123b9;
+    font-family: 'Questrial', sans-serif;
 }
 
 #center-about {
@@ -127,10 +135,11 @@ nav a.active {
     margin: 0 auto;
 }
 
+
 .left-about-heading {
     width: 50%;
     float: right;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -138,7 +147,7 @@ nav a.active {
 .right-about-heading {
     width: 50%;
     float: left;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -146,6 +155,12 @@ nav a.active {
 .left-about-heading h2, .right-about-heading h2 {
     text-align: center;
     text-transform: capitalize;
+}
+
+.left-about-heading i, .right-about-heading i {    
+    color: #554123b9;
+    color: #c7831d;
+    font-size: 40px;
 }
 
 #circle-container {
@@ -158,18 +173,70 @@ nav a.active {
     border-radius: 50%;
     margin: 0 auto;
 }
-.left-about-heading i, .right-about-heading i {    
-    color: #554123b9;
-    font-size: 40px;
-}
-
 #circle-cover-bg {
-    background: url(../images/revivejuicebar.jpeg) no-repeat center center;
+    background: url(../images/revivejuicebar.jpeg) no-repeat center center; 
     background-size: cover;
     height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.8;
+    text-align: center;
+}
+.anchor > img {
+    object-fit: cover; 
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
     opacity: 0.8;
 }
+
+#circle-cover-bg:hover {
+    opacity: 0.3;
+    transform: scale(1.05);
+    transition: all .8s;
+}
+
+.center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+}
+#about-button {
+    color: #FFE0B2;
+    background-color: #c7831d;
+    border-radius: 12px;
+    border: solid 10px #c7831d;
+    font-size: 130%;
+    font-family: 'Questrial', sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+#about-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#about-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+#about-button:hover span {
+    padding-right: 25px;
+  }
+  
+#about-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .fa-seedling {
     visibility: hidden;
@@ -218,14 +285,15 @@ nav a.active {
         width: 100%;
         float: center;
         padding-bottom: 10%;
+        padding-top: 10%;
     }
 
     .left-about-heading, .right-about-heading {
         width: 100%;
         font-size: 110%;
-        line-height: 150%;
         margin: 0px;
         float: none;
+        line-height: 150%;
     }
 
     #about-line {
@@ -244,4 +312,4 @@ nav a.active {
     .fa-leaf, .fa-heart {
         visibility:collapse; 
     }
-}
+} 
