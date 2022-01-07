@@ -202,25 +202,25 @@ nav a.active {
         align-items: center;
         height: 100px;
 }
-#about-button {
+.homepage-button {
     color: #FFE0B2;
-    background-color: #c7831d;
+    background-color:#b38540;
     border-radius: 12px;
-    border: solid 10px #c7831d;
+    border: solid 10px #b38540;
     font-size: 130%;
     font-family: 'Questrial', sans-serif;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
 }
-#about-button span {
+.homepage-button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-#about-button span:after {
+.homepage-button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -229,11 +229,11 @@ nav a.active {
     transition: 0.5s;
   }
   
-#about-button:hover span {
+.homepage-button:hover span {
     padding-right: 25px;
   }
   
-#about-button:hover span:after {
+.homepage-button:hover span:after {
     opacity: 1;
     right: 0;
   }
@@ -242,12 +242,42 @@ nav a.active {
     visibility: hidden;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Menu */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .menu-link:hover {
+    opacity: 0.3;
+    transform: scale(1.05);
+    transition: all .8s;
+  }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Find Us */
 
+#find-us-details {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    color: #554123b9
+}
 
+#find-us-details p{
+    font-size: 1.3rem;
+}
 
-
+#google-maps {
+    text-align: center;
+    opacity: 0.8;
+}
 
 
 
