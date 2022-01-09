@@ -286,6 +286,15 @@ right: 0;
     opacity: 0.8;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu */
+.menu-headings {
+    text-align: center;
+    margin-top: 10px;
+}
+.menu-headings a {
+    padding: 10%;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
     position: absolute;
@@ -320,6 +329,10 @@ right: 0;
 .home-button {
     font-size: 70%;
 }
+
+
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
 @media only screen and (min-width: 200px) and (max-width: 768px) {
@@ -403,5 +416,9 @@ right: 0;
     #responsive-menu-button {
         visibility: visible;
         margin-top: 90px;
+        }
+
+     .menu-headings {
+        margin-top: 30px;
         }
 } 
