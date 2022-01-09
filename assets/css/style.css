@@ -285,15 +285,15 @@ nav a.active {
 @media only screen and (min-width: 200px) and (max-width: 768px) {
 
     .banner {
-        height: 200px;
+        height: 24py0px;
         min-width: 100%;
     }
     .banner-parent {
-        height: 170px;
+        height: 200px;
     }
     .banner-heading {
         font-size: 4rem;
-        padding: 15%;
+        padding: 20%;
     }
     .banner-subheading {
         display: none;
@@ -342,4 +342,17 @@ nav a.active {
     .fa-leaf, .fa-heart {
         visibility:collapse; 
     }
+
+    .column {
+        float:inherit;
+        width: 100%;
+    }
+
+    #menu-button {
+        visibility: collapse;
+        }
+
+   #google-maps {
+       width: 100%;
+        }
 } 
