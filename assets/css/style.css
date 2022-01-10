@@ -113,7 +113,6 @@ nav a.active {
     transition: all .5s
 }
 
-
 .center{
     display: flex;
     justify-content: center;
@@ -252,7 +251,6 @@ right: 0;
     padding: 2px;
   }
   
-  /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
@@ -288,13 +286,28 @@ right: 0;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu */
 .menu-headings {
+    margin-top: 40px;
     text-align: center;
-    margin-top: 10px;
-}
-.menu-headings a {
-    padding: 10%;
+    display: inline;
 }
 
+.menu-headings a {
+    padding: 10%;
+    color:#c7831d;
+    font-size: 160%;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-headings a:hover {
+    color:#554123;
+}
+
+.menu-headings .active-menu {
+    text-decoration: underline;
+    color:#554123;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
     position: absolute;
