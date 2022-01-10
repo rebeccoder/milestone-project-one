@@ -10,7 +10,25 @@ font-family: 'Montserrat', sans-serif;*/
 nav {
     background-color: #c7831d;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images*/
+/* Three image containers (use 25% width for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33%;
+    padding: 2px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .column-about {
+      float:left;
+      width: 49%;
+      padding-left: 6px;
+      padding-top: 20px;
+  }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Special paddings/margings/text etc. */
 body {
     margin: 0px;
@@ -242,19 +260,10 @@ right: 0;
 .fa-seedling {
     visibility: hidden;
 }
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Menu */
-/* Three image containers (use 25% width for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 33%;
-    padding: 2px;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 
   .menu-link:hover {
     opacity: 0.3;
@@ -283,7 +292,7 @@ right: 0;
     opacity: 0.8;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu Page */
 
 .menu-headings {
     margin-top: 40px;
@@ -359,6 +368,24 @@ right: 0;
     margin: 50px;
 
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Us Page */
+.about-us-headings {
+    font-family: 'Montserrat', sans-serif;
+    color: #554123b9;
+    font-size: 2rem;
+}
+
+.about-us-section {
+    border: medium solid #c7831d;
+    background-color: #ffe0b22f;
+}
+
+.about-us-section p {
+    color:#554123;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
