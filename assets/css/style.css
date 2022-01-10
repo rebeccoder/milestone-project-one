@@ -285,24 +285,31 @@ right: 0;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu */
 
-.menu-headings h1 {
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: 'Questrial', sans-serif;
-    color:#554123;
-    font-size: 200%;
-
-
-}
-
 .menu-headings {
     margin-top: 40px;
     text-align: center;
     display: inline;
 }
 
+.menu-headings h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Questrial', sans-serif;
+    color:#554123;
+    font-size: 200%;
+}
+
+.menu-headings h2 {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color:#554123;
+    padding-top: 40px;
+}
+
+
 .menu-headings a {
     padding: 10%;
+    margin-left: 15px;
     color:#c7831d;
     font-size: 160%;
     font-family: 'Questrial', sans-serif;
@@ -318,6 +325,41 @@ right: 0;
     text-decoration: underline;
     color:#554123;
 }
+
+.menu-section {
+    font-size: 1.2rem;
+}
+
+.menu-section p {
+    font-style: italic;
+}
+.left-menu{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #554123;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-menu {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    text-align: center;
+    color: #554123;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.dietry-information {
+    text-align: center;
+    color: #554123;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
     position: absolute;
@@ -352,6 +394,7 @@ right: 0;
 .home-button {
     font-size: 70%;
 }
+
 
 
 
@@ -444,7 +487,22 @@ right: 0;
     .menu-headings h1 {
         margin-bottom: 20px;
     }
+
+    .menu-headings h2 {
+        padding-top: 0px;
+    }
+
     .menu-headings a {
-        padding: 5%;
+        padding: 2%;
+    }
+
+    .menu-pics {
+        display: none;
+        }
+
+    .left-menu, .right-menu {
+        float: none;
+        margin: 25%;
+        padding-top: 0px;
     }
 } 
