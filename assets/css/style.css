@@ -508,6 +508,11 @@ input[type=text], input[type=email], textarea {
         display: none;
     }
 
+    nav a {
+        float: right;
+        padding: 10px 2.5%
+    }
+
     #homepage-sections {
         width: 65%;
         margin: 0 auto;
@@ -607,6 +612,19 @@ input[type=text], input[type=email], textarea {
 
     .container {
         width: 90%;
-        padding-top 0px;
+        padding-top: 0px;
+    }
+
+    .homepage-link {
+        visibility: hidden;
+    }
+
+    .about-images {
+        min-width: 200%;
+        padding: 0;
+    }
+
+    .column-about {
+        padding-left: 4px;
     }
 } 
