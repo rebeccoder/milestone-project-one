@@ -405,7 +405,6 @@ input[type=text], input[type=email], textarea {
 
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #b38540;
     color: #FFE0B2;
@@ -415,12 +414,11 @@ input[type=text], input[type=email], textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
     background-color: #886531;
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background-color: #dbb47ac4;
@@ -500,11 +498,12 @@ input[type=text], input[type=email], textarea {
     }
     .banner-parent {
         height: 200px;
+        width: 100%;
     }
     .banner-heading {
         font-size: 4rem;
-        padding: 20%;
     }
+
     .banner-subheading {
         display: none;
     }
@@ -526,6 +525,11 @@ input[type=text], input[type=email], textarea {
         float: center;
         padding-bottom: 10%;
         padding-top: 10%;
+    }
+
+    #circle-container {
+        width: 77%;
+        height: 250px;
     }
 
     .left-about-heading, .right-about-heading {
@@ -595,5 +599,14 @@ input[type=text], input[type=email], textarea {
         float: none;
         margin: 25%;
         padding-top: 0px;
+    }
+
+    .anchor {
+        display: hidden;
+    }
+
+    .container {
+        width: 90%;
+        padding-top 0px;
     }
 } 
