@@ -628,3 +628,49 @@ input[type=text], input[type=email], textarea {
         padding-left: 4px;
     }
 } 
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .anchor {
+        visibility: hidden;
+    }
+
+    .banner-subheading {
+        background:#9b67196b;
+    }
+
+    .column {
+        float:inherit;
+        width: 100%;
+    }
+
+    #menu-button {
+        visibility: hidden;
+        }
+
+   #google-maps {
+       width: 100%;
+        }
+
+    #smoothie-margin {
+        margin-top: 90px;
+    }
+
+    #responsive-menu-button {
+        visibility: visible;
+        margin-top: 90px;
+    }
+
+    .menu-pics {
+            display: none;
+    }
+
+    .dietry-information {
+        clear: both;
+    }
+
+    .right-about-heading {
+        clear: both;
+        margin-left: 30px;
+    }
+ }
