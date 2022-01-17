@@ -1,10 +1,10 @@
 <h1 align="center">Revive Juicebar</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://rebeccoder.github.io/milestone-project-one/index.html)
 
 This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive use experience
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src= "assets/images/mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -31,7 +31,7 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - <img src="assets/images/home.png">
 
     -   Mobile Wireframe - [View](https://github.com/)
 
