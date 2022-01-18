@@ -2,7 +2,7 @@
 
 [View the live project here.](https://rebeccoder.github.io/milestone-project-one/index.html)
 
-This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive use experience
+This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive user experience
 
 <h2 align="center"><img src= "assets/images/mockup.png"></h2>
 
@@ -31,11 +31,13 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - <img src="assets/images/home.png">
+    -   Home Page Wireframe - <img src="assets/images/Home.png">
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -    Menu Page Wireframe - <img src="assets/images/Menu.png">
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -    About Us Page Wireframe - <img src="assets/images/About.png">
+
+    -   Contact Us Page Wireframe - <img src="assets/images/About.png">
 
 ## Features
 
@@ -52,16 +54,10 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -73,8 +69,8 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -94,10 +90,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. I also asked a member of the Slack Community named Harry who helped a lot with debugging and pointing out UX details to add
 
 ### Known Bugs
-
+- There are currently no known bugs on the project, however, I did go through a debugging process all the way through.
 
 ## Deployment
 
@@ -111,7 +107,7 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://rebeccoder.github.io/milestone-project-one/index.html) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
@@ -131,13 +127,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/rebeccoder/milestone-project-one
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/rebeccoder/milestone-project-one
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -149,9 +145,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+-   Code Institutes Love Running Project 
+
+-   W 3 Schools https://www.w3schools.com/ which I checked many times for helpful codes to help make my own work how I wanted it to 
+
+-   Stack Overflow https://stackoverflow.com/ which also had a lot of useful code to help find missing pieces to my work
+
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The Nav bar code was a w3school template that I added to 
+
+-   I used "image-rendering" as well as "filter: blur 10;" on the banner image to make it clear , I found this code on Stackoverflow
+
+-   I found the code for hover: 
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
