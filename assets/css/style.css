@@ -58,12 +58,12 @@ nav a:hover {
 }
   
 nav a.active {
-    background-color: #cda364;
+    background-color: #f3c581;
     color: #554123;
   }
 
   nav a.active:hover {
-    color: #fff;
+    color: #554123;
   }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header */
@@ -100,7 +100,7 @@ nav a.active {
     font-size: 6rem;
     font-family: 'Questrial', sans-serif;
     margin: 0px; 
-    text-shadow: 5px 8px #1d1717;   
+    text-shadow: 5px 8px #241602;   
 }
 
 .banner-subheading {
@@ -108,7 +108,7 @@ nav a.active {
     color: #fff;
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 3px 3px #1d1717;
+    text-shadow: 3px 3px #241602;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Sections  */
@@ -496,7 +496,7 @@ input[type=text], input[type=email], textarea {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
-@media only screen and (min-width: 200px) and (max-width: 768px) {
+@media only screen and (min-width: 200px) and (max-width: 678px) {
 
     .banner {
         height: 240px;
@@ -637,7 +637,7 @@ input[type=text], input[type=email], textarea {
     }
 } 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 678px) and (max-width: 1024px) {
 
     .anchor {
         visibility: hidden;
