@@ -115,7 +115,7 @@ nav a.active {
 
 .homepage-headings {
     font-family: 'Montserrat', sans-serif;
-    color: #554123b9;
+    color: #442e0c;
     font-size: 2rem;
 }
 
@@ -178,7 +178,7 @@ right: 0;
     padding-top: 30px;
     width: 33%;
     float: left;
-    color: #554123b9;
+    color: #442e0c;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -186,7 +186,7 @@ right: 0;
     padding-top: 30px;
     width: 33%;
     float: right;
-    color: #554123b9;
+    color: #442e0c;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -218,7 +218,6 @@ right: 0;
 }
 
 .left-about-heading i, .right-about-heading i {    
-    color: #554123b9;
     color: #c7831d;
     font-size: 40px;
 }
@@ -282,7 +281,7 @@ right: 0;
 #find-us-details {
     text-align: center;
     font-family: 'Questrial', sans-serif;
-    color: #554123b9;
+    color: #442e0c;
 }
 
 #find-us-details p{
@@ -312,14 +311,14 @@ iframe {
     text-align: center;
     margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
-    color:#554123;
+    color:#442e0c;
     font-size: 200%;
 }
 
 .menu-headings h3 {
     margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
-    color:#554123;
+    color:#442e0c;
     padding-top: 40px;
     font-size: 1.5rem;
 }
@@ -336,12 +335,12 @@ iframe {
 }
 
 .menu-headings a:hover {
-    color:#554123;
+    color:#442e0c;
 }
 
 .menu-headings .active-menu {
     text-decoration: underline;
-    color:#554123;
+    color:#442e0c;
 }
 
 .menu-section {
@@ -356,7 +355,7 @@ iframe {
     width: 50%;
     float: left;
     text-align: center;
-    color: #554123;
+    color: #442e0c;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -365,14 +364,14 @@ iframe {
     width: 50%;
     float: right;
     text-align: center;
-    color: #554123;
+    color: #442e0c;
     font-family: 'Montserrat', sans-serif;
     
 }
 
 .dietry-information {
     text-align: center;
-    color: #554123;
+    color: #442e0c;
     font-family: 'Montserrat', sans-serif;
     margin: 50px;
 
@@ -380,7 +379,7 @@ iframe {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Us Page */
 .about-us-headings {
     font-family: 'Montserrat', sans-serif;
-    color: #554123b9;
+    color: #442e0c;
     font-size: 2rem;
 }
 
@@ -390,7 +389,7 @@ iframe {
 }
 
 .about-us-section p {
-    color:#554123;
+    color:#442e0c;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
 }
@@ -444,13 +443,13 @@ input[type=text], input[type=email], textarea {
   text-align: center;
   margin-bottom: 50px;
   font-family: 'Questrial', sans-serif;
-  color:#554123;
+  color:#442e0c;
   font-size: 200%;
   }
 
   #contact-info {
     font-family: 'Questrial', sans-serif;
-    color:#554123;
+    color:#442e0c;
     font-size: 120%;
     margin-left: 5%;
     margin-top: 5%;
@@ -503,7 +502,7 @@ input[type=text], input[type=email], textarea {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
-@media only screen and (min-width: 200px) and (max-width: 678px) {
+@media only screen and (min-width: 200px) and (max-width: 786px) {
 
     .banner {
         height: 240px;
@@ -644,14 +643,10 @@ input[type=text], input[type=email], textarea {
     }
 } 
 
-@media only screen and (min-width: 678px) and (max-width: 1024px) {
+@media only screen and (min-width: 786px) and (max-width: 1024px) {
 
     .anchor {
         visibility: hidden;
-    }
-
-    .banner-subheading {
-        background:#9b67196b;
     }
 
     .column {
@@ -687,5 +682,5 @@ input[type=text], input[type=email], textarea {
     .right-about-heading {
         clear: both;
         margin-left: 30px;
-    }
- }
+
+    } 
