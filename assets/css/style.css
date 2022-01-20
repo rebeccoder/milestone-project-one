@@ -175,7 +175,7 @@ right: 0;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage 'Who We Are'/About  */
 
 #left-about{
-    padding-top: 30px;
+    margin-top: 30px;
     width: 33%;
     float: left;
     color: #442e0c;
@@ -183,7 +183,7 @@ right: 0;
 }
 
 #right-about {
-    padding-top: 30px;
+    margin-top: 30px;
     width: 33%;
     float: right;
     color: #442e0c;
@@ -502,7 +502,7 @@ input[type=text], input[type=email], textarea {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
-@media only screen and (min-width: 200px) and (max-width: 786px) {
+@media only screen and (min-width: 200px) and (max-width: 768px) {
 
     .banner {
         height: 240px;
@@ -543,7 +543,7 @@ input[type=text], input[type=email], textarea {
     }
 
     #circle-container {
-        width: 77%;
+        width:77%;
         height: 250px;
     }
 
@@ -631,7 +631,7 @@ input[type=text], input[type=email], textarea {
     
     .social-media {
     margin-left: 9px;
-}
+    }
 
     .about-images {
         min-width: 200%;
@@ -641,9 +641,33 @@ input[type=text], input[type=email], textarea {
     .column-about {
         padding-left: 4px;
     }
-} 
 
-@media only screen and (min-width: 786px) and (max-width: 1024px) {
+    .homepage-button {
+        margin-left: inherit;
+    }
+} 
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+
+    .menu-headings {
+        font-size: 1.6rem;
+    }
+
+    .menu-section {
+        font-size: 2rem;
+    }
+
+    #circle-container {
+        width: 50%;
+        height: 250px;
+    }
+
+    .homepage-button {
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1050px) {
 
     .anchor {
         visibility: hidden;
@@ -682,5 +706,31 @@ input[type=text], input[type=email], textarea {
     .right-about-heading {
         clear: both;
         margin-left: 30px;
-
     } 
+
+    .about-images {
+        min-width:100%;
+        margin: 0 auto;
+    }
+
+    #aboutus-button {
+        margin-left: 50px;
+    }
+
+    .menu-headings{
+        font-size: 1.3rem;
+    }
+
+    .menu-section {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .homepage-button {
+        margin-left: 20px;
+    }
+
+}
