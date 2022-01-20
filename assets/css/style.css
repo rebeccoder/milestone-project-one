@@ -25,7 +25,7 @@ nav {
 
   .column-about {
       float:left;
-      width: 50%;
+      width: 49%;
       padding-left: 6px;
       padding-top: 20px;
   }
@@ -665,6 +665,10 @@ input[type=text], input[type=email], textarea {
         margin-left: 20px;
     }
 
+    .column-about {
+        width:50%
+    }
+
 }
 
 @media only screen and (min-width: 1020px) and (max-width: 1050px) {
@@ -714,7 +718,7 @@ input[type=text], input[type=email], textarea {
     }
 
     #aboutus-button {
-        margin-left: 50px;
+        margin-top: 60px;
     }
 
     .menu-headings{
@@ -730,7 +734,11 @@ input[type=text], input[type=email], textarea {
     }
 
     .homepage-button {
-        margin-left: 20px;
+        margin-left: 60px;
+       
     }
 
+    .column-about {
+        width:100%
+    }
 }
