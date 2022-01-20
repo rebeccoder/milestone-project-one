@@ -25,7 +25,7 @@ nav {
 
   .column-about {
       float:left;
-      width: 49%;
+      width: 50%;
       padding-left: 6px;
       padding-top: 20px;
   }
@@ -500,9 +500,6 @@ input[type=text], input[type=email], textarea {
 .social-media i:hover{
     color: #eec689;
 }
-
-
-
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
