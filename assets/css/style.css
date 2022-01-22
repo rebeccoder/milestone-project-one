@@ -529,7 +529,7 @@ input[type=text], input[type=email], textarea {
 
     #homepage-sections {
         width: 65%;
-        margin: 0 auto;
+        margin-top: 80px ;
     }
     
     #left-about, #right-about {
@@ -640,6 +640,9 @@ input[type=text], input[type=email], textarea {
         padding: 0;
     }
 
+    .about-us-section {
+        margin-top: 80px;
+    }
     .column-about {
         padding-left: 4px;
     }
