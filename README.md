@@ -1,10 +1,10 @@
 <h1 align="center">Revive Juicebar</h1>
 
-[View the live project here.](https://rebeccoder.github.io/milestone-project-one/index.html)
+[View the live project here.](https://rebeccoder.github.io/milestone-project-one/)
 
 This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive user experience
 
-<h2 align="center"><img src= "assets/images/mockup.png"></h2>
+<h2 align="center"><img src= "assets/images/mockup-webpage.png"></h2>
 
 ## User Experience (UX)
 
@@ -14,7 +14,7 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
         1. I want to easily understand the main purpose of the site and easily find the information I need about the juiebar.
         2. I want the website to be intuitive and easy to navigate through.
-        3. I want to be able to contact them or access their social media accounts through the website.
+        3. I want to be able to contact the company or access their social media accounts through the website.
 
     -   #### Returning User Goals
         1. I want to be told if there is anything new to try on the menu.
@@ -24,10 +24,17 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used are 
+        #c7831d,
+        #442e0c,
+        #fff
+        and #b38540
+
+
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Questrial font is the secondry font used throughout the  website with Sans Serif as the fallback, this is also a simple yet effective font type.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The images used have been chosen to create a positive feeling as well as be appertising and inviting.
 
 *   ### Wireframes
 
@@ -37,7 +44,7 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
     -    About Us Page Wireframe - <img src="assets/images/About.png">
 
-    -   Contact Us Page Wireframe - <img src="assets/images/About.png">
+    -   Contact Us Page Wireframe - <img src="assets/images/Contact.png">
 
 ## Features
 
@@ -46,6 +53,10 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 -   Interactive elements
 
 ## Technologies Used
+
+[HTML Formatter:](https://webformatter.com/html)
+    -  HTML Formatter was used to beautify the code.
+
 
 ### Languages Used
 
@@ -80,20 +91,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. I want the website to be intuitive and easy to navigate through.
         3. I want to be able to contact them or access their social media accounts through the website.
 
+The website has efficiently been made to show the key information for the juice bar including contact details, location, what is on the menu, prices, social media accounts, opening times etc.
+The website has clear navigation and buttons that are intuitive to their purpose.
+
+
 #### Returning User Goals
         1. I want to be told if there is anything new to try on the menu.
         2. I want to remind myself of opening times or to find the number to call.
         3. I want to learn more about the company and what they stand for.
 
+
+There is a little icon next to anything that is new on the menu instigating that is is new. I have made sure that the contact info is easily available and have included an about us page for anyone curious about finding out more about the company. 
+
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX through the Web Developer Tools on Google Chrome as well as checking on friends and families devices.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. I also asked a member of the Slack Community named Harry who helped a lot with debugging and pointing out UX details to add
 
 ### Known Bugs
-- There are currently no known bugs on the project, however, I did go through a debugging process all the way through.
+- There are currently no known bugs on the project, however, I did go through a debugging process all the way through which I should've documented in further detail, this is something I wish I had done and will do for future projects.
 
 ## Deployment
 
@@ -157,26 +176,28 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   I used "image-rendering" as well as "filter: blur 10;" on the banner image to make it clear , I found this code on Stackoverflow
 
--   I found the code for hover: 
+-   I found the code for the offer effect on the banner on https://css-tricks.com/
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- The About Us section on the homepage was highly influenced by the code used in the Love Running Project by Code Institute.
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
+All images used were found on the following websites:
 
+https://unsplash.com/
+
+https://pixabay.com/
+
+https://www.pexels.com/
 
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for continuous helpful feedback. 
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their support in helping me to debug my code
 
-- 
+- Harry Dhillon (full stack dev student who completed the code institute course) for assisting in the UX of my webpage.
