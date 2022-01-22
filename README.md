@@ -2,7 +2,7 @@
 
 [View the live project here.](https://rebeccoder.github.io/milestone-project-one/)
 
-This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive user experience
+This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive user experience.
 
 <h2 align="center"><img src= "assets/images/mockup-webpage.png"></h2>
 
