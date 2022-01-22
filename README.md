@@ -101,7 +101,8 @@ The website has clear navigation and buttons that are intuitive to their purpose
         3. I want to learn more about the company and what they stand for.
 
 
-There is a little icon next to anything that is new on the menu instigating that is is new. I have made sure that the contact info is easily available and have included an about us page for anyone curious about finding out more about the company. 
+I wanted to add a small "NEW!" icon next to anything new on the menu instigating that there was something new to try to returning customers however I didn't manage to find the resources to help me to do this in time, this is something I want to find out how to learn to do in the future.
+ I have made sure that the contact info is easily available and have included an about us page for anyone curious about finding out more about the company. 
 
 
 ### Further Testing
