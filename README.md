@@ -10,29 +10,27 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+ #### Visitor Goals
 
-        1. I want to easily understand the main purpose of the site and easily find the information I need about the juiebar.
-        2. I want the website to be intuitive and easy to navigate through.
-        3. I want to be able to contact the company or access their social media accounts through the website.
-
-    -   #### Returning User Goals
-        1. I want to be told if there is anything new to try on the menu.
-        2. I want to remind myself of opening times or to find the number to call.
-        3. I want to learn more about the company and what they stand for.
+        1. As a user, I want to easily understand the main purpose of this site, so that I can be sure if this is the right site for me
+        2. As a user, I want to be able to navigate the website, so that I can easily navigate across the website and browse all the pages.
+        3. As a user, I want to be able to visit the social media pages for this bar, so that can see the latest social media news shared.
 
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used are 
         #c7831d,
         #442e0c,
-        #fff
         and #b38540
+        (https://coolors.co/c7831d-442e0c-b38540)
+        <p><img src= "assets/images/colour-scheme.png"></p>
 
 
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        <p><img src= "assets/images/Montserrat.png"></p>
         -   The Questrial font is the secondry font used throughout the  website with Sans Serif as the fallback, this is also a simple yet effective font type.
+         <p><img src= "assets/images/Questrial.png"></p>
     -   #### Imagery
         -   Imagery is important. The images used have been chosen to create a positive feeling as well as be appertising and inviting.
 
@@ -48,9 +46,57 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
 ## Features
 
--   Responsive on all device sizes
+-   Website has been trialled and tested on many devices. It is fully responsive on all device sizes. This involved changing certain things on the webpages, some images and icons had to be removed to ensure the flow of the website made sense.
 
--   Interactive elements
+<p><img src= "assets/images/nav-before.png">
+<img src= "assets/images/nav-after.png"></p>
+The website features a Navigation bar which takes you through the main pages of the website. There is a highlighted background effect on the active page and the color changes on the text that is being hovered over with a mouse.
+
+
+<p><img src= "assets/images/banner-before.png">
+<img src= "assets/images/banner-after.png"></p>
+
+There is a zoom feauture on the hero image making it larger when hovered over.
+
+<p><img src= "assets/images/whoweare-before.png">
+<img src= "assets/images/whoweare-after.png"></p>
+
+When hovering over the section headings they are highlighted for effect.
+
+<p><img src= "assets/images/anchorimage-before.png">
+<img src= "assets/images/anchorimage-after.png"></p>
+
+The image at the center of the About Us section on the homepage is also a link to the About Us page, when hovered it is faded to indicate activity. I tried very hard to get a button to appear over it when it was faded, however I was not able to find the resources to work out how to do this, it is soemthing I would like to do in the future.
+
+<p><img src= "assets/images/button-before.png">
+<img src= "assets/images/before-after.png"></p>
+
+I added buttons to navigate to relevant pages on the homepage. This button once hovered over or clicked unfolds an arrow for effect.
+
+<p><img src= "assets/images/three-image-highlights.png"></p>
+
+The three images on the homepage that show juices, smoothies and bowls are also links to the relevant websites. This is indicated with a faded image once hovered. Again this isn't totally clear as I did not work out how to add a button that appears. This is why I also added the extra buttons above the images.
+
+<p><img src= "assets/images/menu-juices.png">
+<img src= "assets/images/menu-smoothies.png">
+<img src= "assets/images/menu-bowls.png"></p>
+
+For the Menu instead of trying to cram everything on to one menu I divided it into three sections on seperate html files that can be navigated through easily, each with 3 pictures of either juices, smoothies or bowls.. depending which page you were on.
+
+<p><img src= "assets/images/maps.png"></p>
+
+A map to the homepage for users to easily find the juicebar was also included.
+
+
+<p><img src= "assets/images/contact-form.png"></p>
+
+A contact form was included on the contact form for a quick and easy form of communication.
+
+<p><img src= "assets/images/back-to-top.png"></p>
+
+For easier navigation I added a back-to-top link which brought the user back to the top of the current webpage when clicked.
+
+
 
 ## Technologies Used
 
@@ -85,21 +131,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
- #### First Time Visitor Goals
+ #### Visitor Goals
 
-        1. I want to easily understand the main purpose of the site and easily find the information I need about the juiebar.
-        2. I want the website to be intuitive and easy to navigate through.
-        3. I want to be able to contact them or access their social media accounts through the website.
-
-The website has efficiently been made to show the key information for the juice bar including contact details, location, what is on the menu, prices, social media accounts, opening times etc.
-The website has clear navigation and buttons that are intuitive to their purpose.
-
-
-#### Returning User Goals
-        1. I want to be told if there is anything new to try on the menu.
-        2. I want to remind myself of opening times or to find the number to call.
-        3. I want to learn more about the company and what they stand for.
-
+        1. As a user, I want to easily understand the main purpose of this site, so that I can be sure if this is the right site for me
+        2. As a user, I want to be able to navigate the website, so that I can easily navigate across the website and browse all the pages.
+        3. As a user, I want to be able to visit the social media pages for this bar, so that can see the latest social media news shared.
 
 I wanted to add a small "NEW!" icon next to anything new on the menu instigating that there was something new to try to returning customers however I didn't manage to find the resources to help me to do this in time, this is something I want to find out how to learn to do in the future.
  I have made sure that the contact info is easily available and have included an about us page for anyone curious about finding out more about the company. 
