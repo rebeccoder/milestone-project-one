@@ -131,15 +131,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
- #### Visitor Goals
-
-        1. As a user, I want to easily understand the main purpose of this site, so that I can be sure if this is the right site for me
-        2. As a user, I want to be able to navigate the website, so that I can easily navigate across the website and browse all the pages.
-        3. As a user, I want to be able to visit the social media pages for this bar, so that can see the latest social media news shared.
-
-I wanted to add a small "NEW!" icon next to anything new on the menu instigating that there was something new to try to returning customers however I didn't manage to find the resources to help me to do this in time, this is something I want to find out how to learn to do in the future.
- I have made sure that the contact info is easily available and have included an about us page for anyone curious about finding out more about the company. 
-
+[embed]"assets/documentation/user-stories.pdf" [/embed]
 
 ### Further Testing
 
