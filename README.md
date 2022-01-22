@@ -131,14 +131,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-[embed]"assets/documentation/user-stories.pdf" [/embed]
+[User Story Testing] 
+
 
 ### Further Testing
+- The project was tested on the following browsers with success, Google Chrome, Microsoft Edge, Safari, and Brave.
+- Project was manually tested on a Macbook Air, iPhone 7 and a Moto G7 with success.
+- Google Chrome Developer tools were used throughout the project to help me to test the responsiveness across devices.
+- Google Chrome Developer tools used to emulate devices,
+    - Apple iPad
+    - Apple iPad Pro
+    - Microsoft Surface Duo
+    - Motorola G4
+    - Samsung Galaxy S5
+    - Google Pixel 2/2 XL
+    - Apple iPhone 5/SE
+    - Apple iPhone 6/7/8
+    - Apple iPhone 6/7/8 Plus
+    - Apple iPhone X
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX through the Web Developer Tools on Google Chrome as well as checking on friends and families devices.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. I also asked a member of the Slack Community named Harry who helped a lot with debugging and pointing out UX details to add
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. I also asked a member of the Slack Community named Harry who helped a lot with debugging and pointing out UX details to add.
 
 ### Known Bugs
 - There are currently no known bugs on the project, however, I did go through a debugging process all the way through which I should've documented in further detail, this is something I wish I had done and will do for future projects.
