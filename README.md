@@ -131,7 +131,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-[User Story Testing] 
+[User Story Testing](https://github.com/rebeccoder/milestone-project-one/blob/main/assets/documentation/user-stories.pdf)
 
 
 ### Further Testing
