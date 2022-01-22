@@ -478,7 +478,7 @@ input[type=text], input[type=email], textarea {
 .social-media-icons {
     height: 70px;
     background-color: #c7831d;  
-    margin-right: 0 auto;
+    margin-right: 40px;
 }
 .social-media{
     text-align: center;
