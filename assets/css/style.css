@@ -7,6 +7,8 @@ nav {
     background-color: #c7831d;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images*/
+/* Adjust accordingly, 33% for 3 images, 50% for 2 images etc */
+/* Credit due to Stack Overflow for their code of making images align next to eachother like this */
 .column {
     float: left;
     width: 33%;
@@ -47,7 +49,9 @@ nav a {
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
   }
-  
+
+/* Credit due for CSS code posted on w3schools website below that helped create my Nav bar */
+
 nav a:hover {
     color: #554123;
 }
@@ -62,6 +66,8 @@ nav a.active {
   }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header */
+/* w3schools.com css code used below to create zoom effect when hovering over websites hero image */
+
 .banner-parent {
     width: 100%;
     height: 600px;
@@ -132,6 +138,8 @@ nav a.active {
     align-items: center;
     height: 100px;
 }
+
+/* Credit to w3schools.com for most of the homepage buttons code, this code allows an arrow to pop out of the side when the button is hovered over */
 .homepage-button {
 color: #fff;
 background-color:#b38540;
@@ -169,7 +177,7 @@ opacity: 1;
 right: 0;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage 'Who We Are'/About  */
-
+/* Credit to Code Institutes Love Running Project for this section*/
 #left-about{
     margin-top: 30px;
     width: 33%;
@@ -190,7 +198,6 @@ right: 0;
     width: 33%;
     margin: 0 auto;
 }
-
 
 .left-about-heading {
     width: 50%;
@@ -268,9 +275,6 @@ right: 0;
   #responsive-menu-button {
       visibility: hidden;
   }
-
-
-
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Find Us */
 
@@ -414,7 +418,6 @@ input[type=text], input[type=email], textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
 
   input[type=submit]:hover {
     background-color: #886531;
@@ -453,7 +456,6 @@ input[type=text], input[type=email], textarea {
     text-align: center;
   }
 
-  
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
     position: absolute;
