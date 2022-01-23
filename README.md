@@ -28,9 +28,9 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-        <p><img src= "assets/images/Montserrat.png"></p>
+        <p><img src= "assets/images/montserrat.png"></p>
         -   The Questrial font is the secondry font used throughout the  website with Sans Serif as the fallback, this is also a simple yet effective font type.
-         <p><img src= "assets/images/Questrial.png"></p>
+         <p><img src= "assets/images/questrial.png"></p>
     -   #### Imagery
         -   Imagery is important. The images used have been chosen to create a positive feeling as well as be appertising and inviting.
 
@@ -40,7 +40,7 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
 
     -    Menu Page Wireframe - <img src="assets/images/Menu.png">
 
-    -    About Us Page Wireframe - <img src="assets/images/About.png">
+    -    About Us Page Wireframe - <img src="assets/images/wireframe-about.png">
 
     -   Contact Us Page Wireframe - <img src="assets/images/Contact.png">
 
@@ -69,7 +69,7 @@ When hovering over the section headings they are highlighted for effect.
 The image at the center of the About Us section on the homepage is also a link to the About Us page, when hovered it is faded to indicate activity. I tried very hard to get a button to appear over it when it was faded, however I was not able to find the resources to work out how to do this, it is soemthing I would like to do in the future.
 
 <p><img src= "assets/images/button-before.png">
-<img src= "assets/images/before-after.png"></p>
+<img src= "assets/images/button-after.png"></p>
 
 I added buttons to navigate to relevant pages on the homepage. This button once hovered over or clicked unfolds an arrow for effect.
 

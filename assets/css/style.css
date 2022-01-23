@@ -478,10 +478,11 @@ input[type=text], input[type=email], textarea {
 .social-media-icons {
     height: 70px;
     background-color: #c7831d;  
-    margin-right: 40px;
+    
 }
 .social-media{
     text-align: center;
+    margin-right: 40px;
 }
 
 .social-media li{
