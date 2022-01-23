@@ -1,6 +1,5 @@
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Colours */
- body {
+body {
     background-color: #99743c60;
 }
 nav {
@@ -13,19 +12,19 @@ nav {
     float: left;
     width: 33%;
     padding: 2px;
-  }
-  .row::after {
+}
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .column-about {
-      float:left;
-      width: 49%;
-      padding-left: 6px;
-      padding-top: 20px;
-  }
+.column-about {
+    float: left;
+    width: 49%;
+    padding-left: 6px;
+    padding-top: 20px;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Special paddings/margings/text etc. */
 body {
     margin: 0px;
@@ -33,13 +32,13 @@ body {
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation Bar */
 nav {
-        background-color: #c7831d;
-        width: 100%;
-        padding-top: 10px;
-        position: fixed;
-        z-index:100;
+    background-color: #c7831d;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 100;
 }
-  
+
 nav a {
     float: right;
     color: #fff;
@@ -47,23 +46,23 @@ nav a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
-  }
+    font-family: "Montserrat", sans-serif;
+}
 
 /* Credit due for CSS code posted on w3schools website below that helped create my Nav bar */
 
 nav a:hover {
     color: #554123;
 }
-  
+
 nav a.active {
     background-color: #f3c581;
     color: #554123;
-  }
+}
 
-  nav a.active:hover {
+nav a.active:hover {
     color: #554123;
-  }
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header */
 /* w3schools.com css code used below to create zoom effect when hovering over websites hero image */
@@ -74,14 +73,14 @@ nav a.active {
 }
 
 .banner {
-    background-image: url("../images/papaya.jpg"); 
+    background-image: url("../images/papaya.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #886531;
     margin-top: 0px;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     filter: blur(0);
@@ -90,8 +89,8 @@ nav a.active {
 
 .banner-parent:hover .banner,
 .banner-parent:focus .banner {
-  transform: scale(1.05);
-  transition: all .8s;
+    transform: scale(1.05);
+    transition: all 0.8s;
 }
 
 .banner-heading {
@@ -99,23 +98,23 @@ nav a.active {
     color: #fff;
     padding-top: 19%;
     font-size: 6rem;
-    font-family: 'Questrial', sans-serif;
-    margin: 0px; 
-    text-shadow: 4px 4px #241602;   
+    font-family: "Questrial", sans-serif;
+    margin: 0px;
+    text-shadow: 4px 4px #241602;
 }
 
 .banner-subheading {
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-shadow: 3px 3px #241602;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Sections  */
 
 .homepage-headings {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #442e0c;
     font-size: 2rem;
 }
@@ -129,10 +128,10 @@ nav a.active {
 .homepage-headings:hover {
     color: #fff;
     background-color: #c7831d;
-    transition: all .5s
+    transition: all 0.5s;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,49 +140,49 @@ nav a.active {
 
 /* Credit to w3schools.com for most of the homepage buttons code, this code allows an arrow to pop out of the side when the button is hovered over */
 .homepage-button {
-color: #fff;
-background-color:#b38540;
-border-radius: 12px;
-border: solid 10px #b38540;
-font-size: 130%;
-font-family: 'Questrial', sans-serif;
-transition: all 0.5s;
-cursor: pointer;
-margin: 5px;
+    color: #fff;
+    background-color: #b38540;
+    border-radius: 12px;
+    border: solid 10px #b38540;
+    font-size: 130%;
+    font-family: "Questrial", sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .homepage-button span {
-cursor: pointer;
-display: inline-block;
-position: relative;
-transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .homepage-button span:after {
-content: '\00bb';
-position: absolute;
-opacity: 0;
-top: 0;
-right: -20px;
-transition: 0.5s;
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .homepage-button:hover span {
-padding-right: 25px;
+    padding-right: 25px;
 }
 
 .homepage-button:hover span:after {
-opacity: 1;
-right: 0;
+    opacity: 1;
+    right: 0;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage 'Who We Are'/About  */
 /* Credit to Code Institutes Love Running Project for this section*/
-#left-about{
+#left-about {
     margin-top: 30px;
     width: 33%;
     float: left;
     color: #442e0c;
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
 }
 
 #right-about {
@@ -191,7 +190,7 @@ right: 0;
     width: 33%;
     float: right;
     color: #442e0c;
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
 }
 
 #center-about {
@@ -215,12 +214,14 @@ right: 0;
     margin-bottom: 50px;
 }
 
-.left-about-heading h2, .right-about-heading h2 {
+.left-about-heading h2,
+.right-about-heading h2 {
     text-align: center;
     text-transform: capitalize;
 }
 
-.left-about-heading i, .right-about-heading i {    
+.left-about-heading i,
+.right-about-heading i {
     color: #c7831d;
     font-size: 40px;
 }
@@ -236,7 +237,7 @@ right: 0;
     margin: 0 auto;
 }
 #circle-cover-bg {
-    background: url(../images/revivejuicebar.jpeg) no-repeat center center; 
+    background: url(../images/revivejuicebar.jpeg) no-repeat center center;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -245,7 +246,7 @@ right: 0;
     text-align: center;
 }
 .anchor > img {
-    object-fit: cover; 
+    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -255,36 +256,34 @@ right: 0;
 #circle-cover-bg:hover {
     opacity: 0.3;
     transform: scale(1.05);
-    transition: all .8s;
+    transition: all 0.8s;
 }
 
 .fa-seedling {
     visibility: hidden;
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Menu */
 
-
-  .menu-link:hover {
+.menu-link:hover {
     opacity: 0.3;
     transform: scale(1.05);
-    transition: all .8s;
-  }
+    transition: all 0.8s;
+}
 
-  #responsive-menu-button {
-      visibility: hidden;
-  }
+#responsive-menu-button {
+    visibility: hidden;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage Find Us */
 
 #find-us-details {
     text-align: center;
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
     color: #442e0c;
 }
 
-#find-us-details p{
+#find-us-details p {
     font-size: 1.3rem;
 }
 
@@ -310,37 +309,36 @@ iframe {
 .menu-headings h2 {
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Questrial', sans-serif;
-    color:#442e0c;
+    font-family: "Questrial", sans-serif;
+    color: #442e0c;
     font-size: 200%;
 }
 
 .menu-headings h3 {
     margin-bottom: 50px;
-    font-family: 'Montserrat', sans-serif;
-    color:#442e0c;
+    font-family: "Montserrat", sans-serif;
+    color: #442e0c;
     padding-top: 40px;
     font-size: 1.5rem;
 }
 
-
 .menu-headings a {
     padding: 10%;
     margin-left: 15px;
-    color:#c7831d;
+    color: #c7831d;
     font-size: 160%;
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
 
 .menu-headings a:hover {
-    color:#442e0c;
+    color: #442e0c;
 }
 
 .menu-headings .active-menu {
     text-decoration: underline;
-    color:#442e0c;
+    color: #442e0c;
 }
 
 .menu-section {
@@ -350,13 +348,13 @@ iframe {
 .menu-section p {
     font-style: italic;
 }
-.left-menu{
+.left-menu {
     padding-top: 30px;
     width: 50%;
     float: left;
     text-align: center;
     color: #442e0c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .right-menu {
@@ -365,20 +363,18 @@ iframe {
     float: right;
     text-align: center;
     color: #442e0c;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: "Montserrat", sans-serif;
 }
 
 .dietry-information {
     text-align: center;
     color: #442e0c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 50px;
-
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Us Page */
 .about-us-headings {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #442e0c;
     font-size: 2rem;
 }
@@ -389,87 +385,88 @@ iframe {
 }
 
 .about-us-section p {
-    color:#442e0c;
-    font-family: 'Montserrat', sans-serif;
+    color: #442e0c;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.3rem;
     margin: 50px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Contact Us */
-input[type=text], input[type=email], textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 3px solid #b38540; 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #b38540;
     background: #f3e3cbc7;
-    border-radius: 4px; 
-    box-sizing: border-box; 
+    border-radius: 4px;
+    box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    font-family: 'Questrial', sans-serif;
-    color:#554123;
+    font-family: "Questrial", sans-serif;
+    color: #554123;
+}
 
-  }
-  
-  input[type=submit] {
+input[type="submit"] {
     background-color: #b38540;
-    color: #FFE0B2;
+    color: #ffe0b2;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  input[type=submit]:hover {
+input[type="submit"]:hover {
     background-color: #886531;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #dbb47ac4;
     padding: 20px;
     width: 60%;
     margin: auto;
-  }
+}
 
-  .container label {
-    font-family: 'Questrial', sans-serif;
-    float:left;
+.container label {
+    font-family: "Questrial", sans-serif;
+    float: left;
     padding: 12px;
-    color:#FFE0B2;
-    background:#b38540;
-  }
+    color: #ffe0b2;
+    background: #b38540;
+}
 
-  #contact-header {
-  text-align: center;
-  margin-bottom: 50px;
-  font-family: 'Questrial', sans-serif;
-  color:#442e0c;
-  font-size: 200%;
-  }
+#contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Questrial", sans-serif;
+    color: #442e0c;
+    font-size: 200%;
+}
 
-  #contact-info {
-    font-family: 'Questrial', sans-serif;
-    color:#442e0c;
+#contact-info {
+    font-family: "Questrial", sans-serif;
+    color: #442e0c;
     font-size: 120%;
     margin-left: 5%;
     margin-top: 5%;
     text-align: center;
-  }
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 6rem;    
-    text-align: center;  
-    background-color: #c7831d;      
-  }
+    height: 6rem;
+    text-align: center;
+    background-color: #c7831d;
+}
 
-.back-to-top{
-   text-align: right;
-   margin-top: 1%;
-   width:100%;
+.back-to-top {
+    text-align: right;
+    margin-top: 1%;
+    width: 100%;
 }
 
 .back-to-top button {
@@ -479,32 +476,29 @@ input[type=text], input[type=email], textarea {
 
 .social-media-icons {
     height: 70px;
-    background-color: #c7831d;  
-    
+    background-color: #c7831d;
 }
-.social-media{
+.social-media {
     text-align: center;
     margin-right: 40px;
 }
 
-.social-media li{
+.social-media li {
     display: inline;
 }
 
-.social-media i{
+.social-media i {
     font-size: 250%;
     margin: 1%;
-    color:#eee1ce
+    color: #eee1ce;
 }
 
-.social-media i:hover{
+.social-media i:hover {
     color: #eec689;
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media */
 @media only screen and (min-width: 200px) and (max-width: 768px) {
-
     .banner {
         height: 240px;
         min-width: 100%;
@@ -523,20 +517,21 @@ input[type=text], input[type=email], textarea {
 
     nav a {
         float: right;
-        padding: 10px 2.5%
+        padding: 10px 2.5%;
     }
 
     #homepage-sections {
         width: 65%;
-        margin-top: 50px ;
+        margin-top: 50px;
     }
-    
-    #left-about, #right-about {
-        width:100%;
+
+    #left-about,
+    #right-about {
+        width: 100%;
         padding-top: 0px;
     }
-    
-    #center-about{
+
+    #center-about {
         clear: both;
         width: 100%;
         padding-bottom: 10%;
@@ -544,11 +539,12 @@ input[type=text], input[type=email], textarea {
     }
 
     #circle-container {
-        width:77%;
+        width: 77%;
         height: 250px;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: 100%;
         font-size: 110%;
         margin: 0px;
@@ -560,8 +556,9 @@ input[type=text], input[type=email], textarea {
         visibility: visible;
     }
 
-    .left-about-heading i, .right-about-heading i {
-    font-size: 50px;
+    .left-about-heading i,
+    .right-about-heading i {
+        font-size: 50px;
     }
 
     .fa-seedling {
@@ -569,22 +566,23 @@ input[type=text], input[type=email], textarea {
         padding-top: 10px;
     }
 
-    .fa-leaf, .fa-heart {
-        visibility:collapse; 
+    .fa-leaf,
+    .fa-heart {
+        visibility: collapse;
     }
 
     .column {
-        float:inherit;
+        float: inherit;
         width: 100%;
     }
 
     #menu-button {
         visibility: hidden;
-        }
+    }
 
-   #google-maps {
-       width: 100%;
-        }
+    #google-maps {
+        width: 100%;
+    }
 
     #smoothie-margin {
         margin-top: 90px;
@@ -593,7 +591,7 @@ input[type=text], input[type=email], textarea {
     #responsive-menu-button {
         visibility: visible;
         margin-top: 90px;
-        }
+    }
 
     .menu-headings h1 {
         margin-bottom: 20px;
@@ -609,16 +607,17 @@ input[type=text], input[type=email], textarea {
 
     .menu-pics {
         display: none;
-        }
+    }
 
-    .left-menu, .right-menu {
+    .left-menu,
+    .right-menu {
         float: none;
         margin: 25%;
         padding-top: 0px;
     }
 
     .anchor {
-        visibility: hidden
+        visibility: hidden;
     }
 
     .container {
@@ -629,9 +628,9 @@ input[type=text], input[type=email], textarea {
     .homepage-link {
         visibility: hidden;
     }
-    
+
     .social-media {
-    margin-right: 30px;
+        margin-right: 30px;
     }
 
     .about-images {
@@ -649,9 +648,8 @@ input[type=text], input[type=email], textarea {
     .homepage-button {
         margin-left: inherit;
     }
-} 
+}
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
-
     .menu-headings {
         font-size: 1.6rem;
     }
@@ -670,29 +668,27 @@ input[type=text], input[type=email], textarea {
     }
 
     .column-about {
-        width:50%
+        width: 50%;
     }
-
 }
 
 @media only screen and (min-width: 1020px) and (max-width: 1050px) {
-
     .anchor {
         visibility: hidden;
     }
 
     .column {
-        float:inherit;
+        float: inherit;
         width: 100%;
     }
 
     #menu-button {
         visibility: hidden;
-        }
+    }
 
-   #google-maps {
-       width: 100%;
-        }
+    #google-maps {
+        width: 100%;
+    }
 
     #smoothie-margin {
         margin-top: 90px;
@@ -704,7 +700,7 @@ input[type=text], input[type=email], textarea {
     }
 
     .menu-pics {
-            display: none;
+        display: none;
     }
 
     .dietry-information {
@@ -714,10 +710,10 @@ input[type=text], input[type=email], textarea {
     .right-about-heading {
         clear: both;
         margin-left: 30px;
-    } 
+    }
 
     .about-images {
-        min-width:100%;
+        min-width: 100%;
         margin: 0 auto;
     }
 
@@ -725,7 +721,7 @@ input[type=text], input[type=email], textarea {
         margin-top: 60px;
     }
 
-    .menu-headings{
+    .menu-headings {
         font-size: 1.3rem;
     }
 
@@ -739,10 +735,9 @@ input[type=text], input[type=email], textarea {
 
     .homepage-button {
         margin-left: 60px;
-       
     }
 
     .column-about {
-        width:100%
+        width: 100%;
     }
 }
