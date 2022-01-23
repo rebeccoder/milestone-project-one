@@ -2,8 +2,7 @@
 
 [View the live project here.](https://rebeccoder.github.io/milestone-project-one/)
 
-This is the website for Revive Juicebar in Newport. It is desinged to be accessible and functional for all different devices and create a positive user experience.
-
+This website is a demonstration of what I have learnt so far on my course with The Code Institute. It is a HTML and CSS static website that focuses on user experience and accessibility. Revive Juicebar is not a real juciebar but something I've made up for the purpose of the project. The websites goal is to be intuitive, user friendly, inviting and understandable. It is a simple website that could be used as the front end of a website for a real juice bar. 
 <h2 align="center"><img src= "assets/images/mockup-webpage.png"></h2>
 
 ## User Experience (UX)
@@ -32,7 +31,7 @@ This is the website for Revive Juicebar in Newport. It is desinged to be accessi
         -   The Questrial font is the secondry font used throughout the  website with Sans Serif as the fallback, this is also a simple yet effective font type.
          <p><img src= "assets/images/questrial.png"></p>
     -   #### Imagery
-        -   Imagery is important. The images used have been chosen to create a positive feeling as well as be appertising and inviting.
+        -   Imagery is important. The images used have been chosen to create a positive feeling as well as be appertising and inviting. I've tried to keep a similar theme with images used especially the ones that are used in alignments of three.
 
 *   ### Wireframes
 
@@ -113,13 +112,13 @@ For easier navigation I added a back-to-top link which brought the user back to 
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+2. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+3. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
+5. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
@@ -211,13 +210,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Stack Overflow https://stackoverflow.com/ which also had a lot of useful code to help find missing pieces to my work
 
+- CSS Tricks https://css-tricks.com/ which had a variety of code that was a bit more interactive and fun 
+
 ### Code
 
--   The Nav bar code was a w3school template that I added to 
-
--   I used "image-rendering" as well as "filter: blur 10;" on the banner image to make it clear , I found this code on Stackoverflow
-
--   I found the code for the offer effect on the banner on https://css-tricks.com/
+-   Any code that has been influenced by outside sources has been commented  into the html and CSS files above the code that was used.
 
 - The About Us section on the homepage was highly influenced by the code used in the Love Running Project by Code Institute.
 

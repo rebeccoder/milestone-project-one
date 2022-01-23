@@ -65,7 +65,7 @@ nav a.active:hover {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header */
-/* w3schools.com css code used below to create zoom effect when hovering over websites hero image */
+/* css-tricks.com code used below to create zoom effect when hovering over websites hero image */
 
 .banner-parent {
     width: 100%;
@@ -81,6 +81,7 @@ nav a.active:hover {
     margin-top: 0px;
     width: 100%;
     height: 100%;
+/* The image-rendering and filter code was found on stack overflow to help combat slight bluriness of reshaped images */
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     filter: blur(0);
